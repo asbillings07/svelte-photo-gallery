@@ -1,0 +1,2 @@
+export const API_KEY = '3a9e840e960a3341980d12dc85528f1e'
+export const apiBaseUrl = (search) => `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${API_KEY}&tags=${search}&per_page=24&format=json&nojsoncallback=1`
